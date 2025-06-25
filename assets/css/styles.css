@@ -1,5 +1,5 @@
 header, footer {
-    background-color: azure;
+    background-color: #ffd95f;
 }
 main{
     background-color: bisque;
@@ -16,6 +16,7 @@ main{
 .duckLogo {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 ul{
