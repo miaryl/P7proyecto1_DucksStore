@@ -16,13 +16,13 @@ main{
 footer {
     height: 181px;
 }
-
+/*----------------------------------------------------*/
 /* H  E  A  D  E  R */
+/*----------------------------------------------------*/ 
 
 .header{
     display: flex;
     justify-content: space-between;
-
 }
 /*header LEFT*/
 .headerLeft{
@@ -96,8 +96,9 @@ ul li a{
 }
 
 
-
+/*----------------------------------------------------*/
 /* F  O  O  T  E  R */
+/*----------------------------------------------------*/
 
 .footer {
     display: flex;
@@ -118,7 +119,6 @@ ul li a{
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-
 }
 .companyData p{
     /*
@@ -155,5 +155,6 @@ ul li a{
     margin-left: 40px;
 
 }
-
+/*----------------------------------------------------*/
 /*  DESDE AQUI MAIN  */
+/*----------------------------------------------------*/
