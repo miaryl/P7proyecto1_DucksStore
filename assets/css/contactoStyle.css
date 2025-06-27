@@ -10,7 +10,9 @@ header{
     height: 119px;
 }
 main{
+     /*cuando empieces, quita este color y este mensaje*/
     background-color: bisque;
+    /*hasta aquí o depende... altura tambien*/
     height: 724px;
 }
 footer {
@@ -39,20 +41,7 @@ footer {
 }
 
 /*HEADER CENTER*/
-/*
-ul{
-    list-style: none;
-    display: flex;
-    font-size:30px;
-    margin: 45px 0;
-}
-ul li{
-    margin-right: 50px;    
-}
-ul li a{
-    text-decoration: none;
-}
-*/
+
 .navbar{
     display: flex;
     align-items: center;

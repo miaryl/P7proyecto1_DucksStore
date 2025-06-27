@@ -10,7 +10,9 @@ header{
     height: 119px;
 }
 main{
+    /*cuando empieces, quita este color y este mensaje*/
     background-color: bisque;
+    /*hasta aquí o depende... altura tambien*/
     height: 724px;
 }
 footer {
