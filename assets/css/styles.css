@@ -25,6 +25,9 @@ footer {
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
 }
 /*header LEFT*/
 .headerLeft{
@@ -40,21 +43,6 @@ footer {
     
 }
 
-/*HEADER CENTER*/
-/*
-ul{
-    list-style: none;
-    display: flex;
-    font-size:30px;
-    margin: 45px 0;
-}
-ul li{
-    margin-right: 50px;    
-}
-ul li a{
-    text-decoration: none;
-}
-*/
 .navbar{
     display: flex;
     align-items: center;
@@ -71,8 +59,8 @@ ul li a{
 }
 .headerNav:hover {
     text-decoration: underline;
-    font-size: 25px;
-    transition-duration: 1s;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
 
 
@@ -93,8 +81,12 @@ ul li a{
 }
 
 .carrito:hover, .usuario:hover{
+    /*
     width: 65px;
     height: 65px;
+    */
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
 
 
