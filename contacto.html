@@ -14,78 +14,66 @@
     <title>Duck Store</title>
   </head>
   <body>
-    <header class="header">
-      <!--LEFT-->
-      <div class="headerLeft">
-        <a href="#"><img class="duckLogo" src="./assets/img/logo.png" /></a>
-      </div>
-      <!--CENTER-->
-      <div class="navbar">
-        <div><a class="headerNav" href="index.html">Home</a></div>
-        <div><a class="headerNav" href="#main">Catálogo</a></div>
-        <div><a class="headerNav" href="contacto.html">Contacto</a></div>
-      </div>
-      <!--RIGHT-->
-      <div class="navRight">
-        <a href="#"
-          ><img class="carrito" src="./assets/img/icons/carrito.png"
-        /></a>
+     <header class="header">
+    <a href="#"><img class="duckLogo" src="./assets/img/logo.png" alt="Duck Logo" /></a>
+      
+    <nav class="navbar">
+      <ul>
+        <li>Home</li>
+        <li>Catálogo</li>
+        <li>Contacto</li>
+        <!-- <li>Blog</li> -->
+      </ul>
+    </nav>
+    <div class="icons-left">
+      <img class="icon cesta" src="./assets/img/icons/carrito.png" alt="cesta">
+      <img class="icon usuario" src="assets/img/icons/usuario.png" alt="usuario">
+    </div>  
+    
+    <div class="hamburger">
+      <img class="icon" src="./assets/img/icons/menu-bar (1).png">
+    </div>
+  </header>
 
-        <a href="#"
-          ><img class="usuario" src="./assets/img/icons/usuario.png"
-        /></a>
-      </div>
-    </header>
+  <main>
+    <div class="background-container">
+      <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <main id="main">
-      <div></div>
-    </main>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-    <footer>
-      <div class="footer">
-        <!--LEFT-->
-        <div class="companyInfo">
-          <a href=""
-            ><img
-              class="duckLogo duckLogoFooter"
-              src="./assets/img/logo.png"
-              alt="company Logo"
-          /></a>
-          <div class="companyData">
-            <p>+34 918 528 954</p>
-            <p>Barcelona, España</p>
-            <p>Privacy Policy</p>
-            <p>&COPY; 2025 Duck Store</p>
-          </div>
-        </div>
-        <!--CENTER-->
-        <div class="footerCenter">
-          <p>Bienvenido al maravilloso mundo de los patitos de goma.</p>
-        </div>
-        <!--RIGHT-->
-        <div class="socialNet">
-          <div class="socialIconos">
-            <a href="https://www.tiktok.com/" target="_blank"
-              ><img
-                class="socialIcono"
-                src="./assets/img/icons/tiktok.png"
-                alt="tiktok"
-            /></a>
-            <a href="https://x.com/" target="_blank"
-              ><img
-                class="socialIcono"
-                src="./assets/img/icons/twitter.png"
-                alt="x"
-            /></a>
-            <a href="https://www.instagram.com/" target="_blank"
-              ><img
-                class="socialIcono"
-                src="./assets/img/icons/insta.png"
-                alt="insta"
-            /></a>
-          </div>
-        </div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="companyInfo">
+      <a href="#"><img class="duckLogo" src="./assets/img/logo.png" alt="Logo" /></a>
+      <div class="companyData">
+        <p>+34 918 528 954</p>
+        <p>Barcelona, España</p>
+        <p>Privacy Policy</p>
+        <p>&copy; 2025 Duck Store</p>
       </div>
-    </footer>
+    </div>
+    <div class="slogan">
+    <p>¡Bienvenidos al maravilloso mundo de los patitos de goma!</p>
+    </div>
+
+    <div class="socialNet">
+      
+      <div class="icons">
+        <a href="https://www.tiktok.com/" target="_blank"><img class="socialIcono" src="./assets/img/icons/tiktok.png" alt="tik tok" /></a>
+        <a href="https://x.com/" target="_blank"><img class="socialIcono" src="./assets/img/icons/twitter.png" alt="Twitter" /></a>
+        <a href="https://www.instagram.com/" target="_blank"><img class="socialIcono" src="./assets/img/icons/insta.png" alt="Instagram"/></a>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
